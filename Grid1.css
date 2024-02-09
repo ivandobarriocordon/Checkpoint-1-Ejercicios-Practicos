@@ -1,0 +1,13 @@
+/* Selector para aplicar la funcion grid a la clase */
+.gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* Selector para aplicar estilos al primer parrafo */
+.gridOne p:first-child{
+    color:black;
+}
+/* Selector para aplicar estilos al segundo parrafo que es el ultimo elemento dentro del div */
+.gridOne p:last-child{
+    color:blue;
+}

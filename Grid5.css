@@ -1,0 +1,13 @@
+/* Selector para aplicar la funcion grid a la clase */
+.gridFive{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+}
+#Unique-Class-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#Unique-Class-2 img{
+    object-fit: cover;
+}

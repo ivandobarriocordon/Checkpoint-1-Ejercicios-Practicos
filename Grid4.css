@@ -1,0 +1,11 @@
+/* Selector para aplicar la funcion grid a la clase */
+.gridFour{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+#Unique-Class-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

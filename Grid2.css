@@ -1,0 +1,14 @@
+/* Selector para aplicar la funcion grid a la clase */
+.gridTwo{
+    display: grid;
+    grid-template-columns: 2fr 2fr 4fr;
+}
+.gridTwo > .Unique-Class-1{
+    background-color: red;
+}
+.gridTwo > .Unique-Class-2{
+    background-color: blue;
+}
+.gridTwo > .Unique-Class-3{
+    background-color: yellow;
+}
